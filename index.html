@@ -1,0 +1,187 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="YFM Radio | yfmradio.net, radio online con música las 24 horas desde Maracay, Venezuela, #pop. La que te mueve.">
+    <meta name="author" content="Carlos Morejon">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="canonical" href="https://yfmradio.net">
+
+    <title>YFM Radio | La que te mueve...</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        html,body{width:100%;height:100%;background-color:#1E1E1E;}
+        body{background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1159" height="947" viewBox="0 0 1159 947" fill="none"><path d="M786.629 518.264C805.347 527.755 870.572 556.937 946.205 517.978C914.816 588.18 859.562 623.58 797.893 628.795C735.82 634.045 667.19 608.716 609.817 557.382C577.642 528.593 563.557 487.101 562.003 445.014C560.448 402.925 571.428 360.298 589.314 329.314L589.317 329.308L589.321 329.301L750.084 30.4638C775.441 5.87506 815.754 1.62995 846.144 16.6553C861.339 24.1679 874.039 36.4925 881.148 53.4894C888.252 70.474 889.788 92.165 882.592 118.448L733.407 386.492L733.396 386.512L733.386 386.534C728.135 398.454 721.115 421.069 725.582 445.877C730.054 470.718 746.031 497.677 786.629 518.264Z" stroke="rgba(62,62,62,1)"/><path d="M1134 364.717L1133.99 364.739L1133.98 364.761L920.527 852.167C888.059 894.345 865.169 910.884 838.165 910.419C824.628 910.186 810.002 905.68 792.551 897.882C776.723 890.809 758.612 881.048 736.92 869.357C734.698 868.159 732.437 866.941 730.138 865.703C730.136 865.702 730.133 865.701 730.131 865.699L470.524 716.015L470.107 715.775L469.851 716.183C420.057 795.553 350.053 828.87 281.906 832.101C213.736 835.332 147.412 808.457 105.023 767.411C40.8667 705.288 22.9904 630.818 33.279 564.124C43.5709 497.409 82.0437 438.485 130.574 407.487L130.593 407.475L130.61 407.462C156.981 387.162 179.857 377.362 202.622 376.709C225.39 376.056 248.13 384.55 274.235 401.013C300.371 417.495 395.27 481.538 483.647 541.468C527.832 571.432 570.384 600.365 601.89 621.807C617.642 632.528 630.633 641.376 639.686 647.544C642.538 649.487 644.999 651.164 647.032 652.55L650.165 654.685L652.913 656.559L653.616 657.038L653.794 657.159L653.839 657.19L653.85 657.197C653.853 657.199 653.854 657.2 654.135 656.788L653.854 657.2L653.86 657.204C659.47 660.903 690.449 679.778 728.593 685.864C766.766 691.955 812.155 685.237 846.407 637.677L846.434 637.639L846.454 637.597L1020.42 267.975C1039.97 236.325 1082.48 235.032 1113.15 254.485C1128.47 264.199 1140.76 279.063 1145.7 297.824C1150.63 316.58 1148.22 339.286 1134 364.717Z" stroke="rgba(62,62,62,1)"/></svg>');background-size:cover;background-repeat: no-repeat;background-position: center;}
+        .height-100{height:100%;}
+        .main{}
+        .vertical-align{display:flex;flex-wrap:wrap;align-items: center;justify-content: center;}
+        .botones-center{max-width: 320px;margin:0 auto;display: flex;align-items: center;justify-content: center;width:100%;flex-wrap: wrap;}
+        #radio{width:100px;height:100px;text-align: center;display: block;border-radius:150px;margin:0 auto;background-color:#E31D1A;border:none;text-indent:-9999px;}
+        .button-like{width:50px;height:50px;text-align: center;display:flex;border-radius:150px;margin:0 auto;background-color:#303030;position: relative;align-items: center;justify-content: center;cursor:pointer;}
+        .button-like .button-like-input{width:0;height:0;appearance:none;-webkit-appearance: none;border:none;background-color: transparent;}
+        .button-like .button-like-input + .button-like-heart{width:20px;height:20px;background-color: transparent;display: block;margin:0 auto;background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.419c-2.826-5.695-11.999-4.064-11.999 3.27 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-7.327-9.17-8.972-12-3.27z" fill="rgba(30,30,30,1)"/></svg>');background-size:cover;background-repeat: no-repeat;background-position: center;}
+        .button-like .button-like-input:checked + .button-like-heart{background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.419c-2.826-5.695-11.999-4.064-11.999 3.27 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-7.327-9.17-8.972-12-3.27z" fill="rgba(227,29,26,1)"/></svg>');}
+        .button-volume{width:50px;height:50px;text-align: center;display: block;border-radius:150px;margin:0 auto;background-color:rgba(30,30,30,1);position:relative;}
+        .button-volume [type="range"]{position:absolute;transform: rotate(-90deg);-webkit-appearance: none;background-color: transparent;}
+        .button-volume input[type="range"]::-webkit-slider-thumb {-webkit-appearance: none; height: 20px;width: 20px;border-radius: 50%;background:rgba(48,48,48,1);cursor: n-resize;}
+        .button-volume input[type="range"]::-webkit-slider-runnable-track{ -webkit-appearance: none;box-shadow: none;border: none;background: transparent;width:100%;height:100%;}
+        .wrapper-button{position: relative;} 
+        .wrapper-button #radio + .radio-icon{position: absolute;width:30px;height:30px;top:50%;left:50%;pointer-events:none;margin-top:-15px;margin-left:-15px;background-size: contain;background-repeat: no-repeat;background-position: center;}
+        .wrapper-button #radio + .radio-icon, .wrapper-button #radio.pause + .radio-icon{background-image: url('data:image/svg+xml;utf8,<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.56413 49.2105C5.31356 51.4398 -0.0357401 48.6809 0.000179935 44.2779L0.315399 5.63894C0.350869 1.29109 5.62421 -1.40581 9.83936 0.768174L46.8253 19.8438C51.0404 22.0178 51.0626 27.4458 46.8653 29.6472L9.56413 49.2105Z" fill="rgba(255,255,255,1)"/></svg>');}
+        .wrapper-button #radio.playing + .radio-icon{background-image: url('data:image/svg+xml;utf8,<svg width="45" height="50" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="15" height="50" rx="7.5" fill="rgba(30,30,30,1)"/><rect x="30" width="15" height="50" rx="7.5" fill="rgba(30,30,30,1)"/></svg>');}
+        @media screen and (max-width:1000px) {
+            html,body{height:-webkit-fill-available;}
+        }
+    </style>
+  </head>
+
+  <body>
+    
+    <div class="main height-100">
+        <div class="container height-100">
+
+            <div class="vertical-align height-100">
+                <div class="col-md-12 text-center">
+                    <div class="form-group">
+                        <h1>YFM Radio</h1>
+                    </div>
+
+                    <div class="botones-center">
+                        <div class="col-md-3 col-xs-12">
+                            <div class="form-group">
+                                <label for="button-like" class="button-like">
+                                    <input id="button-like" type="checkbox" class="button-like-input">
+                                    <span class="button-like-heart"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="form-group wrapper-button">
+                            <button type="button" data-label-onplay="R" data-label-stop="D" id="radio">R</button>
+                                <span class="radio-icon"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <div class="form-group">
+                                <label for="button-volume" class="button-volume">
+                                    <input type="range" id='radio-volume' min="0" max="1" step="0.01" />
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <h3>La que te mueve...</h3>
+                    </div>         
+                    
+                    </div>
+
+                    
+                    <!-- <audio controls autoplay="autoplay"><source src="http://51.255.123.116:9456/;stream.mp3" type="audio/mp3">Your browser does not support the audio element.</audio> -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>')</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        const ip_shoutcast = "http://51.255.123.116:9456/";
+        var sound      = document.createElement('audio');
+        sound.id       = 'audio-player';
+        sound.controls = 'controls';
+        sound.src      = `${ip_shoutcast};stream.mp3`;
+        sound.type     = 'audio/mp3';
+
+        let aud = document.getElementById("audio-player");
+        let btnplay = document.getElementById("radio");
+        let btnstop = document.getElementById("stop");
+        let range_volume = document.getElementById("radio-volume");
+
+        const svolumen = localStorage.getItem("svolumen");
+        range_volume.value = svolumen || 100;
+
+        sound.addEventListener("canplaythrough", (event) => {
+            if(sound.currentTime === 0){
+                btnplay.className = "onplay";
+            }
+        });
+
+        sound.addEventListener("playing", (event) => {
+            btnplay.className = "playing";
+        });
+
+        sound.addEventListener("pause", (event) => {
+            btnplay.className = "pause";
+        });
+
+        btnplay.addEventListener("click", function() {
+            const label_onplay = this.getAttribute('data-label-onplay');
+            const label_stop = this.getAttribute('data-label-stop');
+
+            console.log( sound.currentTime );
+            if(this.className === 'playing'){
+                sound.pause();
+                btnplay.className = "pause";
+                this.innerText = label_onplay;
+            }else{
+                sound.play().then((string) => {
+                    btnplay.className = "playing";
+                    this.innerText = label_stop;
+                });
+            }
+
+        });
+
+        range_volume.addEventListener("input", (e) => {
+            const value_volumen = e.currentTarget.value;
+            sound.volume = value_volumen / 1;
+            localStorage.setItem("svolumen", sound.volume);
+        });
+
+        fetch('http://51.255.123.116:9456/currentsong?sid=1#', {mode: 'no-cors'})
+.then(function(response) {
+  console.log(response); 
+}).catch(function(error) {  
+  console.log('Request failed', error)  
+});
+
+// fetch("http://51.255.123.116:9456/currentsong?sid=#", {
+//     method: "GET",
+//     mode: 'no-cors',
+//     headers: {  
+//             "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
+//         },
+// })
+// .then((response) =>response.json())
+// .then((data) => {
+//     console.log(data);
+// })
+// .catch(error => {
+//     return error;
+// });
+ 
+
+    </script>
+
+  </body>
+</html>
